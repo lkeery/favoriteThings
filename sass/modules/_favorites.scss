@@ -1,7 +1,7 @@
 #favorites {
     margin-bottom: 30px;
     img {
-        max-width: 300px;
+        max-width: 200px;
         margin: 0 auto;
         display: block;
         padding-top: 50px;
@@ -15,6 +15,15 @@
         text-align: center;
         margin: 0 auto;
         display: block;
-        width: 200px;
+        width: 150px;
+    }
+    .u-link:hover {
+        background: #575757;
+    }
+    .title {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
     }
 }
