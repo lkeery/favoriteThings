@@ -1,6 +1,7 @@
 @import '_vars';
 @import './modules/favorites';
 @import './modules/footer';
+@import './modules/error';
 
 body {
     color: $main-color;
