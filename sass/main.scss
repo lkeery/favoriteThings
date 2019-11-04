@@ -1,5 +1,6 @@
 @import '_vars';
 @import './modules/favorites';
+@import './modules/footer';
 
 body {
     color: $main-color;
@@ -28,6 +29,7 @@ hr {
         padding: 20px;
         background: #dddddd;
         border-radius: 15px;
+        color: black;
     }
 }
 
