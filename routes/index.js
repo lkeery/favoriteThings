@@ -21,7 +21,7 @@ router.get('/', (req, res) => {
     })
 })
 
-router.get('/:id', (req, res) => {
+router.get('/favorite/:id', (req, res) => {
     //console.log('Dynamic Route');
     //console.log(req.params.id);
 
