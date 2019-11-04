@@ -1,0 +1,27 @@
+<div class="grid-container">
+<div class="grid-x grid-padding-x" id="favorites">
+        {{#each people}}
+        <div class="cell large-4 columns">
+            <img class="u-avatar" src="images/{{avatar}}" alt="avatar">
+            <br>
+            <h2 class="title">{{title}}</h2>
+            <a class="u-link" href="{{ID}}">Learn More</a>
+            
+        </div>
+        {{/each}}
+
+</div>
+    </div>
+
+
+
+    <!-- this will be filled in on the client side when we render our AJAX data -->
+    <div class="cell large-12 columns">
+    <section class="lightbox">
+        <div class="lb-content">
+        </div>   
+    </section>
+    </div>
+</div>
+
+
