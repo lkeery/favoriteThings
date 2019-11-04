@@ -27,7 +27,7 @@ const myVM = (() => {
         //debugger;
         let imgSrc = this.previousElementSibling.getAttribute('src'); // find image closest to the anchor tag property
 
-        let url = `/${this.getAttribute('href')}`;
+        let url = `/favorite/${this.getAttribute('href')}`;
 
         fetch(url) // get data
             .then(res => res.json()) // parse JSON result into plain obj
